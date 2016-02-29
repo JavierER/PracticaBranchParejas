@@ -10,5 +10,7 @@ package practicabranch;
  * @author Javii
  */
 public class ClaseA {
-    
+    public void aux_metodo1(){
+        System.out.println("Commit en branch devB");
+    }
 }
