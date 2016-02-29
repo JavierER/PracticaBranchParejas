@@ -11,4 +11,7 @@ package practicabranch;
  */
 public class ClaseA {
     
+    public void Visualizar(){
+        System.out.println("Hola, esta es la rama devA");
+    }
 }
