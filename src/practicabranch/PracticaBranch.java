@@ -5,6 +5,8 @@
  */
 package practicabranch;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Javii
@@ -17,6 +19,15 @@ public class PracticaBranch {
     public static void main(String[] args) {
         System.out.print("Primer commit en la master");
     }
+    public void cuenta(){
+        int variableA;
+        variableA=Integer.parseInt(JOptionPane.showInputDialog("Introduce valor de la variable a "));
+        int variableB;
+        variableB=Integer.parseInt(JOptionPane.showInputDialog("Introduce valor de la variable b "));
+        int proceso;
+        proceso=variableA*variableB;
+        
+        }
     }
     
 
